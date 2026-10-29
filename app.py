@@ -140,7 +140,7 @@ with gr.Blocks(css="""
         color: #7c1c1c;
         padding: 1rem 1.5rem;
     }
-    #fidelidade-banner img {
+    #app-banner img {
         width: 100% !important;
         height: auto !important;
         display: block;
@@ -199,8 +199,8 @@ with gr.Blocks(css="""
 
     sidebar_visible = gr.State(True)
 
-    with gr.Column(elem_id="fidelidade-banner", scale=12):
-        gr.Image(value="fidelidade.png", show_label=False, interactive=False)
+    with gr.Column(elem_id="app-banner", scale=12):
+        gr.Image(value="banner.png", show_label=False, interactive=False)
 
     with gr.Row():
         with gr.Column(scale=1, elem_classes="sidebar", visible=True) as sidebar_col:
