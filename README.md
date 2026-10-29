@@ -28,7 +28,7 @@ Customers regularly ask about rates, conditions and how savings products work. T
 ## Repository structure
 
 ```
-insurance-savings-assistant/
+Insurance-Savings-Assistance/
 ├── app.py            # Gradio chat app connected to the Azure OpenAI Assistant
 ├── fidelidade.png    # Banner image
 ├── .env.example      # Settings template
