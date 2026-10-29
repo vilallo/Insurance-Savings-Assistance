@@ -4,9 +4,7 @@
 ![Azure OpenAI](https://img.shields.io/badge/Azure%20OpenAI-0078D4?logo=microsoftazure&logoColor=white)
 ![Gradio](https://img.shields.io/badge/Gradio-F97316)
 
-**MySavings** is a retrieval-augmented chatbot that answers customer questions about savings and retirement products, such as PPR (the Portuguese retirement savings plan), for a Portuguese insurance company. Its answers are grounded in the official product documentation and current Euribor rates.
-
-> **Confidentiality:** This project was developed for a real company. The company's name and its data have been hidden for confidentiality reasons.
+**MySavings** is a retrieval-augmented chatbot that answers customer questions about savings and retirement products, such as PPR (the Portuguese retirement savings plan), for a Portuguese insurer (Fidelidade). Its answers are grounded in the official product documentation and current Euribor rates.
 
 ## Problem
 
@@ -32,7 +30,7 @@ Customers regularly ask about rates, conditions and how savings products work. T
 ```
 Insurance-Savings-Assistance/
 ├── app.py            # Gradio chat app connected to the Azure OpenAI Assistant
-├── banner.png        # Banner image
+├── fidelidade.png    # Banner image
 ├── .env.example      # Settings template
 ├── requirements.txt
 └── README.md
